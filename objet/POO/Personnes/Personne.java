@@ -1,6 +1,9 @@
 // Déclaration de la classe Personne
 public class Personne {
 
+
+
+    // Définition des attributs de la classe Personne
     private String prenom;
     private String nom;
     private int age;
@@ -8,15 +11,16 @@ public class Personne {
     private double revenu;
     private double autreRevenu;
 
-    public Personne(String prenom, String nom, int age, boolean sexe, double Revenu, double autreRevenu) {
+
+    public Personne(String prenom, String nom, int age, boolean sexe, double revenu, double autreRevenu) {
         this.prenom = prenom;
         this.nom = nom;
         this.age = age;
         this.sexe = sexe;
-        this.revenu = Revenu;
+        this.revenu = revenu;
         this.autreRevenu = autreRevenu;
     }
- 
+
 
     public String getPrenom() {
         return prenom;
