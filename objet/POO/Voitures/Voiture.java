@@ -34,7 +34,7 @@ public class Voiture {
 
     }
 
-    public Voiture(ExoCompteBancaire v1) {
+    public Voiture(Voiture v1) {
        
     }
 
