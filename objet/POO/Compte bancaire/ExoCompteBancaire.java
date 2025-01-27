@@ -88,6 +88,7 @@ public class ExoCompteBancaire {
 
                 boolean result;
                 result = this.debit(amountToTransfer);
+
                 if (result) {
                     beneficiary.credit(amountToTransfer);
                 }

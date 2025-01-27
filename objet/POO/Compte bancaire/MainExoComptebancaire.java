@@ -11,7 +11,7 @@ public class MainExoComptebancaire {
 
          c1.credit(3000.00);
 
-         System.out.println("debit marche ? :"+c1.debit(500.00));
+         System.out.println("debit marche ? :"+c1.debit(-500.00));
          System.out.println("transfert marche ? :"+c1.transfer(c2,2000));
          System.out.println("Je suis plus riche que Ludo ? :"+c1.compare(c2));
          System.out.println(c1.toString());
