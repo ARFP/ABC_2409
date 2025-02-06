@@ -13,11 +13,15 @@ public class Voiture {
     private boolean accelerateur;
     private boolean frein;
 
+            
+        /* Constructeur par défaut */
 
     public Voiture(){
 
     }
 
+
+            /* Constructeur par classique */
 
     public Voiture(String marque, int annee, int nbDeRoue,String typeCarburant, boolean moteur , boolean contact, boolean accelerateur, boolean frein ) {
         
@@ -34,10 +38,20 @@ public class Voiture {
 
     }
 
+                /* Constructeur par clonage */
+
     public Voiture(Voiture v1) {
+        
+        this.marque = v1.marque;
+        this.annee = v1.annee;
+        this.nbDeRoue = v1.nbDeRoue;
+        this.typeCarburant = v1.typeCarburant;
+        this.moteur = v1.moteur;
+        this.contact = v1.contact;
+        this.accelerateur = v1.accelerateur;
+        this.frein = v1.frein;
        
     }
-
 
     public void demarrer() {
 

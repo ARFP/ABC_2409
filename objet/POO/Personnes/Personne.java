@@ -22,25 +22,27 @@ public class Personne {
     }
 
 
+    
+
     public String getPrenom() {
-        return prenom;
+        return this.prenom;
     }
  
     public String getNom() {
-        return nom;
+        return this.nom;
     }
  
     public int getAge() {
-        return age;
+        return this.age;
     }
 
 
     public double getRevenu() {
-        return revenu;
+        return this.revenu;
     }
 
     public double getAutreRevenu() {
-        return autreRevenu;
+        return this.autreRevenu;
     }
 
 
